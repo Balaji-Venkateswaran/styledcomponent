@@ -38,13 +38,17 @@ const NavLink = styled(Link)`
 export default function Home() {
   return (
     <Container>
-      <Title>Styled-Components Learning Hub 💅</Title>
+      <Title>Styled-Components Learning Hub</Title>
       <Nav>
         <NavLink href="/topics/basics">Styled Basics</NavLink>
         <NavLink href="/topics/themes">Themes</NavLink>
         <NavLink href="/topics/globals">Global Styles</NavLink>
         <NavLink href="/topics/nesting">Nesting</NavLink>
+        <NavLink href="/topics/pseudo-selectors">Pseudo-Selectors</NavLink>
+        <NavLink href="/topics/props">Props</NavLink>
+        <NavLink href="/topics/extending-styles">Extending Styles</NavLink>
+
       </Nav>
-    </Container>
+    </Container>  
   );
 }

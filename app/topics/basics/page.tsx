@@ -4,6 +4,9 @@ import Link from 'next/link';
 
 const Wrapper = styled.div`
   padding: 3rem;
+  background-color: #f7fbff;
+  min-height: 100vh;  
+  color: #0b2447; 
 `;
 
 const Title = styled.h2`
@@ -25,7 +28,7 @@ export default function Basics() {
     <Wrapper>
       <Title>Styled Components Basics</Title>
       <p>Learn how to create and use styled components in Next.js.</p>
-      <Back href="/">⬅ Back to Home</Back>
+      <Back href="/">Back to Home</Back>
     </Wrapper>
   );
 }

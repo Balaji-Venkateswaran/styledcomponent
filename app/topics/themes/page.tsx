@@ -19,13 +19,23 @@ const Button = styled.button`
   border-radius: 8px;
 `;
 
+const Back = styled(Link)`
+  display: inline-block;
+  margin-top: 2rem;
+  color: #7fba00;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 export default function ThemeDemo() {
   return (
     <ThemeProvider theme={lightTheme}>
       <Wrapper>
         <h2>Theme Example</h2>
         <Button>Primary Button</Button>
-        <p><Link href="/">⬅ Back to Home</Link></p>
+        <p><Back href="/">Back to Home</Back></p>
       </Wrapper>
     </ThemeProvider>
   );

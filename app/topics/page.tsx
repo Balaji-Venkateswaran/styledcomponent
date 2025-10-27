@@ -40,6 +40,10 @@ export default function TopicsPage() {
         <Item><TopicLink href="/topics/themes">Themes</TopicLink></Item>
         <Item><TopicLink href="/topics/globals">Global Styles</TopicLink></Item>
         <Item><TopicLink href="/topics/nesting">Nesting</TopicLink></Item>
+        <Item><TopicLink href="/topics/pseudo-selectors">Pseudo-Selectors</TopicLink></Item>
+        <Item><TopicLink href="/topics/props">Props</TopicLink></Item>
+        <Item><TopicLink href="/topics/extending-styles">Extending Styles</TopicLink></Item>
+
 
       </List>
     </Wrapper>

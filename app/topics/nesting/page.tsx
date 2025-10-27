@@ -20,13 +20,11 @@ const Card = styled.div`
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  /* 🪄 Hover effect for the whole card */
   &:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   }
 
-  /* 🎯 Nested elements inside the card */
   h3 {
     color: #0b2447;
     margin-bottom: 0.5rem;
@@ -37,7 +35,6 @@ const Card = styled.div`
     line-height: 1.5;
   }
 
-  /* 🪄 Nested hover change for title */
   &:hover h3 {
     color: #7fba00;
   }
@@ -65,7 +62,7 @@ export default function NestingPage() {
         </p>
       </Card>
 
-      <BackLink href="/">⬅ Back to Home</BackLink>
+      <BackLink href="/">Back to Home</BackLink>
     </PageWrapper>
   );
 }
