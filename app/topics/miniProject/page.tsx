@@ -97,7 +97,7 @@ export default function AllInOne(){
       <Shell>
         <Container>
           <Bar>
-            <Brand>Jouer UI</Brand>
+            <Brand>Styled UI</Brand>
             <MenuBtn onClick={()=>setMenuOpen(o=>!o)}>{menuOpen?'Close':'Menu'}</MenuBtn>
             <Links open={menuOpen}>
               <li><a href="#login">Login</a></li>
