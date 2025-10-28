@@ -43,6 +43,14 @@ export default function TopicsPage() {
         <Item><TopicLink href="/topics/pseudo-selectors">Pseudo-Selectors</TopicLink></Item>
         <Item><TopicLink href="/topics/props">Props</TopicLink></Item>
         <Item><TopicLink href="/topics/extending-styles">Extending Styles</TopicLink></Item>
+        <Item><TopicLink href="/topics/styling-any-component">Styling Any Component</TopicLink></Item>
+        <Item><TopicLink href="/topics/themeProvider">Theme Provider</TopicLink></Item>
+        <Item><TopicLink href="/topics/animations">Animations</TopicLink></Item>
+        <Item><TopicLink href="/topics/mixins">Mixins</TopicLink></Item>
+        <Item><TopicLink href="/topics/responsive">Responsive Design</TopicLink></Item>
+        <Item><TopicLink href="/topics/advanced-patterns">Advanced Patterns</TopicLink></Item>
+        <Item><TopicLink href="/topics/miniProject">Mini Project</TopicLink></Item>
+
 
 
       </List>
