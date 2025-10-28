@@ -16,21 +16,7 @@ It lets you write actual CSS code inside your JavaScript or TypeScript files, ke
 
 ---
 
-## ⚙️ Installation
 
-```bash
-npm install styled-components
-npm install --save-dev @types/styled-components
-
-
-```
-
-# 🌈 Styled-Components — Key Topics & Definitions
-
-Styled-Components is a **powerful CSS-in-JS library** for React and Next.js that enables you to write actual CSS directly inside your JavaScript or TypeScript files.  
-It helps in creating **scoped, maintainable, and theme-aware styles** effortlessly.
-
----
 
 ## 🧩 Key Topics & Definitions
 
@@ -58,4 +44,14 @@ It helps in creating **scoped, maintainable, and theme-aware styles** effortless
 | **20** | **CSS Variables & Props** | You can pass custom CSS variables or computed props to styled components for advanced theming or transitions. |
 
 ---
+
+## ⚙️ Installation
+
+```bash
+npm install styled-components
+npm install --save-dev @types/styled-components
+
+
+```
+
 
